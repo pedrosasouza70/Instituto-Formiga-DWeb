@@ -1,0 +1,41 @@
+:root {
+  padding: 0;
+  --nav-bar-bg-color: white;
+  --nav-bar-link-color: black;
+  --nav-bar-text-color: black;
+  --footer-bg-color: black;
+  --footer-text-color: white;
+  font-size: 12pt;
+}
+
+body {
+  margin: 0;
+  background-color: green;
+  padding: 0;
+  font-family: "Open Sans";
+}
+
+.alto-contraste body {
+  background-color: black;
+  --nav-bar-bg-color: hsl(0, 0%, 15%);
+  --nav-bar-link-color: white;
+  --nav-bar-text-color: white;
+  --footer-bg-color: hsl(0, 0%, 15%);
+}
+
+button {
+  font: inherit;
+}
+
+input[type="text"],
+textarea,
+input[type="tel"],
+input[type="password"],
+input[type="email"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1em;
+  width: 100%;
+  resize: vertical;
+  font: inherit;
+}
